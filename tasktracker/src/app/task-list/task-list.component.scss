@@ -1,0 +1,50 @@
+.task-item {
+    border: 1px solid black; /* Light gray border */
+    border-radius: 0.25rem; /* Small border radius */
+    padding: 1rem; /* Padding inside the task item */
+    margin-bottom: 0.5rem; /* Space between task items */
+    background-color: #09971f; /* Green background for task items */
+    color: white; /* White text color */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    display:block;
+    flex-direction: column;
+    max-width: 600px; 
+  }
+  
+  .task-name {
+    font-size: 1.2rem; /* Larger font size for task title */
+    font-weight: bold; /* Bold font for task title */
+    margin-bottom: 0.5rem; /* Space below the task title */
+    border-bottom: 1px solid white; /* White border for separation */
+    padding-bottom: 0.5rem; /* Padding below the task title */
+    padding-left: 2rem;
+  }
+  
+  .task-description {
+    margin-bottom: 0.5rem; /* Space below each detail */
+    padding-left: 1rem;
+  }
+
+  .task-assignedTo
+  {
+    margin-bottom: 0.5rem; /* Space below each detail */
+    padding-left: 1rem;
+  }
+  
+  .task-actions {
+    display: flex;
+    justify-content: flex-end; /* Align actions to the right */
+  }
+  
+  .task-actions button {
+    margin-left: 0.5rem; /* Space between action buttons */
+  }
+  
+  .task-item p {
+    margin: 0; /* Remove default paragraph margins */
+    color: white; /* Ensure text is white for readability */
+  }
+
+  
+  
+  

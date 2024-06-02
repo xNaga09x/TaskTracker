@@ -1,0 +1,39 @@
+.task-columns {
+    display: flex;
+    padding: 20px;
+    background-color: #474b4f;
+  }
+  
+  .task-column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: #474b4f;
+  }
+
+  .buttons {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 10px; //To Do/In Progress/Done
+  box-shadow:rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+button[mat-button] {
+  margin:  0px 0px;
+  padding: 5px 30px; //List View/Grid View
+  background-color: #09971f;
+  border: 2px solid black; /* Change border color and thickness */
+  transition: all 0.3s ease; /* Add transition for smooth hover effect */
+  color: black;
+  box-shadow:5px 5px 5px rgba(0, 0, 0, 0.2);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  justify-content: center;
+}
+
+button[mat-button]:hover {
+  background-color: #0d7b14;
+}
+
+
+  

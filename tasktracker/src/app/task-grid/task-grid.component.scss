@@ -1,0 +1,29 @@
+.task-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+  background-color: #474b4f; /* Dark background for the entire container */
+}
+
+.task-column {
+  flex: 1;
+  margin: 10px;
+  background-color: white; /* White background for each column */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 2px solid black; /* Change border color and thickness */
+}
+
+.task-column h2 {
+  color: #09971f; /* Green color for the column titles */
+  border-bottom: 2px solid #09971f; /* Optional: Add a border under the title */
+  padding-bottom: 10px;
+  box-shadow:rgba(0, 0, 0, 0.2); /* Add shadow */
+  
+}
+
+.task-column div {
+  margin-bottom: 10px;
+}

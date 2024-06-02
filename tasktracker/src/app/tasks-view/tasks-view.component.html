@@ -1,0 +1,15 @@
+
+<div class="buttons">
+  <button mat-button (click)="isList = false"> <mat-icon>list</mat-icon> List View</button>
+  <button mat-button (click)="isList = true"> <mat-icon>grid_view</mat-icon> Grid View</button>
+</div>
+
+<router-outlet></router-outlet>
+
+<div *ngIf="!isList">
+  <app-task-list></app-task-list>
+</div> 
+
+<div *ngIf="isList">
+  <task-grid></task-grid>
+</div>

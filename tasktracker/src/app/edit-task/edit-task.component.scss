@@ -1,0 +1,22 @@
+#editTaskContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 800px;
+}
+
+#editTaskActions {
+  display: flex;
+  justify-content: flex-end; /* Align actions to the end */
+}
+
+/* Style for the form fields */
+.mat-form-field {
+  width: 100%; /* Full width for the form fields */
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+/* Style for the buttons */
+.mat-dialog-actions button {
+  margin-left: 10px; /* Space between buttons */
+}

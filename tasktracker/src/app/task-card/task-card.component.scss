@@ -1,0 +1,51 @@
+/* Task Columns */
+.task-columns {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: #474b4f; /* Dark background for the entire container */
+}
+
+.task-column {
+  flex: 1;
+  margin: 10px;
+  background-color: white; /* White background for each column */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-column h2 {
+  color: #09971f; /* Green color for the column titles */
+  border-bottom: 2px solid #09971f; /* Optional: Add a border under the title */
+  padding-bottom: 10px;
+  
+}
+
+/* Task Cards */
+.example-card {
+  background-color: #09971f; /* Light gray background for task cards */
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: black;
+  border: 2px solid black; /* Change border color and thickness */
+}
+
+.example-card mat-card-title {
+  font-weight: bold;
+}
+
+.example-card mat-card-content {
+  color: white; /* Dark color for the card content text */
+}
+
+.example-card mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.example-card mat-card-actions button {
+  margin-left: 5px;
+  
+}

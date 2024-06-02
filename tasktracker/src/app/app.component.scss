@@ -1,0 +1,45 @@
+.spacer {
+    flex: 1 1 auto;
+  }
+
+  @media screen and (max-width: 600px) {
+    .mat-toolbar {
+      /* Adjust styles for smaller screens */
+      padding: 10px; /* Add padding for better spacing */
+    }
+  }
+
+  .title {
+    margin-left: 10px; /* Adjust the margin to move the title to the right */
+  }
+  
+  .mat-toolbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
+    background: linear-gradient(to right, #09971f, #0d7b14); /* Your desired toolbar background color */
+    color: black; /* Your desired toolbar font color */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight:bold;
+    font-size:xx-large;
+    border-bottom: 2px solid black;
+  }
+  
+  .mat-toolbar button{
+    background-color: #0d7b14;
+    color: black; /* Your desired button font color */
+    padding: 12px 16px; /* Increase padding for a larger button */
+    border: 2px solid black; /* Change border color and thickness */
+    border-radius: 5px; /* Add rounded corners */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    font-size:medium;
+  }
+
+  .mat-toolbar button:hover {
+    background-color: #0e7414;
+    color: black; /* Your desired button font color */
+    border-color: #0e7414; /* Change border color on hover */
+    border: 2px solid black; /* Change border color and thickness */
+  }

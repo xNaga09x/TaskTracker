@@ -1,0 +1,51 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+
+    color: black; /* Your desired button font color */
+    padding: 12px 12px; /* Increase padding for a larger button */
+    border-radius: 5px; /* Add rounded corners */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+    
+  }
+  
+  .form-group label {
+    margin-bottom: 5px; /* Space between labels */
+    color:white;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); /* Add shadow */;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%; /* Full width for input fields */
+    margin-bottom: 10px; /* Space between input fields */
+    color: black; /* Your desired button font color */
+    padding: 12px 12px; /* Increase padding for a larger button */
+    border: 2px solid black; /* Change border color and thickness */
+    border-radius: 5px; /* Add rounded corners */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
+  .form-group button {
+    margin-left: 10px; /* Space between buttons and input fields */
+    margin-right: 20px; /* Space between buttons and input fields */
+    margin-top: 10px; /* Space between buttons */
+    max-width: 200px;
+    max-height: 100px;
+    display: inline-block; /* Display buttons inline */
+    color: black; /* Your desired button font color */
+    padding: 12px 12px; /* Increase padding for a larger button */
+    border: 2px solid black; /* Change border color and thickness */
+    border-radius: 5px; /* Add rounded corners */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2); /* Add shadow */
+  }
+  
